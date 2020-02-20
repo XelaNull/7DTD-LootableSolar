@@ -4,18 +4,18 @@
   -->
 	<append xpath="/recipes">
     <recipe name="solarCell" count="1" craft_area="workbench">
-	    <ingredient name="forgedIron" count="25"/>
-	    <ingredient name="silverNugget" count="2"/>
-	    <ingredient name="glassBusinessSheet" count="6"/>
-	    <ingredient name="insulator" count="4"/>
-	    <ingredient name="electronicParts" count="10"/>
+	    <ingredient name="resourceForgedIron" count="25"/>
+	    <ingredient name="resourceSilverNugget" count="2"/>
+	    <ingredient name="unit_glass" count="6"/>
+	    <ingredient name="resourceInsulator" count="4"/>
+	    <ingredient name="resourceElectronicParts" count="10"/>
     </recipe> 
     <recipe name="solarbank" count="1" craft_area="workbench">
-	    <ingredient name="forgedSteel" count="50"/>
-	    <ingredient name="electricParts" count="10"/>
-	    <ingredient name="electronicParts" count="10"/>
-	    <ingredient name="mechanicalParts" count="10"/>
-	    <ingredient name="glassBulletproofPlate" count="10"/>
+	    <ingredient name="resourceForgedSteel" count="50"/>
+	    <ingredient name="resourceElectricParts" count="10"/>
+	    <ingredient name="resourceElectronicParts" count="10"/>
+	    <ingredient name="resourceMechanicalParts" count="10"/>
+	    <!--<ingredient name="glassBulletproofBlockVariantHelper" count="10"/>--></ingredient>
     </recipe>
   </append>
 </configs>
