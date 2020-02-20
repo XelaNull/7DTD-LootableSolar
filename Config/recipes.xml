@@ -15,7 +15,7 @@
 	    <ingredient name="resourceElectricParts" count="10"/>
 	    <ingredient name="resourceElectronicParts" count="10"/>
 	    <ingredient name="resourceMechanicalParts" count="10"/>
-	    <!--<ingredient name="glassBulletproofBlockVariantHelper" count="10"/>--></ingredient>
+	    <!--<ingredient name="glassBulletproofBlockVariantHelper" count="10"/>-->
     </recipe>
   </append>
 </configs>
