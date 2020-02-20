@@ -1,0 +1,45 @@
+<configs>
+<!--
+  salvageHarvest is what comes out of it while I wrench it apart      
+--> 
+
+<!--
+<block name="solarbank">
+  <property class="RepairItems">
+    <property name="resourceForgedIron" value="5"/>
+    <property name="resourceElectricParts" value="3"/>
+    <property name="resourceElectricParts" value="2"/>
+    <property name="resourceScrapPolymers" value="2"/>
+  </property>
+  <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+  <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+</block>
+-->
+<remove xpath="/blocks/block[@name='solarbank']/drop[contains(@tag,'salvageHarvest')]" />
+<append xpath="/blocks/block[@name='solarbank']">
+  <drop event="Harvest" name="solarBank" count="1" prob=".2" tag="salvageHarvest"/>
+  <drop event="Harvest" name="solarCell" count="1,3" prob=".3" tag="salvageHarvest"/>
+  <drop event="Harvest" name="unit_glass" count="1,2" tag="salvageHarvest"/>
+  <drop name="DowngradeBlock" value="cntCollapsedSolarbank"/>
+</append>
+
+<!--
+<block name="cntCollapsedSolarbank">
+  <drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+  <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+  <drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.5" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+</block>
+-->
+<remove xpath="/blocks/block[@name='cntCollapsedSolarbank']/drop[contains(@tag,'salvageHarvest')]" />
+<append xpath="/blocks/block[@name='cntCollapsedSolarbank']">
+  <drop event="Harvest" name="resourceForgedIron" count="1,2" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceSilverNugget" count="1,4" prob=".1" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceInsulator" count="1,2" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceElectronicParts" count="1,2" tag="salvageHarvest"/>
+  <drop event="Harvest" name="resourceBrokenGlass" count="1,2" tag="salvageHarvest"/>
+</append>
+
+</configs>

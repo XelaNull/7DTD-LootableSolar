@@ -1,0 +1,21 @@
+<configs>
+  <!-- 
+    Taken from: https://7daystodie.com/forums/showthread.php?67181-Recipe-for-Solar-Cells
+  -->
+	<append xpath="/recipes">
+    <recipe name="solarCell" count="1" craft_area="workbench">
+	    <ingredient name="forgedIron" count="25"/>
+	    <ingredient name="silverNugget" count="2"/>
+	    <ingredient name="glassBusinessSheet" count="6"/>
+	    <ingredient name="insulator" count="4"/>
+	    <ingredient name="electronicParts" count="10"/>
+    </recipe> 
+    <recipe name="solarbank" count="1" craft_area="workbench">
+	    <ingredient name="forgedSteel" count="50"/>
+	    <ingredient name="electricParts" count="10"/>
+	    <ingredient name="electronicParts" count="10"/>
+	    <ingredient name="mechanicalParts" count="10"/>
+	    <ingredient name="glassBulletproofPlate" count="10"/>
+    </recipe>
+  </append>
+</configs>

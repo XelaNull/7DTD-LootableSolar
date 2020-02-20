@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lootable Solar Banks and Cells" />
+		<Description value="Adds ability to wrench a solar bank off a roof and obtain a working bank and cells." />
+		<Author value="ShoudenKalferas"/>
+		<Version value="A18.3_1.0" />
+		<Website value="https://github.com/XelaNull/7DTD-LootableSolar.git" />
+	</ModInfo>
+</xml>
